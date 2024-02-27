@@ -1,0 +1,9 @@
+<div *ngFor="let list of result; let i = index">
+  <div class="text-box" >
+   <input type="checkbox"[checked]="list.completed" >
+    <p >{{ list.title }}</p>
+  </div>
+
+</div>
+
+
